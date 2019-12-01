@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>
+      Cálculo para Exportação de Açúcar
+    </title>
+    <link rel = "stylesheet" type="text/css" href="css/estilo.css">
+    <meta charset="utf8">
+  </head>
+  <body>
+    <h1>
+      Cálculo para Exportação de Açúcar
+    </h1>
+    <img src = "imagens/canavial.jpg" alt = "imagem de um canavial" />
+    <h3 class="esverdeado" id="tituloform">
+      Formulário para cálculo do valor da exportação
+     </h3>
+     <h3 class="esverdeado">
+         Teste de texto
+     </h3>
+    <form>
+      <label class="esverdeado" for"nomeVendedor">
+        Nome do Vendedor
+      </label>
+    <input id="nomeVendedor" type="text">
+      </br>
+      <label for"nomeComprador">
+        Nome do Comprador
+      </label>
+    <input id="nomeComprador" type="text">
+    </br>  
+      <label for "valordoacucar">
+        Valor do Açúcar
+      </label>
+    <input id="valordoacucar" type="number">
+      </br>    
+      <label for"quantacucar">
+        Quantidade de Açúcar
+      </label>
+     <input id="quantacucar" type="number">
+      </br>      
+      <button type"submit">
+        Calcular
+      </button>
+     </form>
+     <script src="javascript/matematica.js"></script>
+     <script>
+     alert(quantacucar * valordoacucar);
+     </script>
+  </body>
+</html>
