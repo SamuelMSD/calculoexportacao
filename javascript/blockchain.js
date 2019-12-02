@@ -1,4 +1,4 @@
-var enderecoContrato = "0x53C34f4897a4111f9299a9b734aD1d5c380a8Ce5";
+var enderecoContrato = "0x692a70d2e424a56d2c6c27aa97d1a86395877b3a";
 var provedor = new ethers.providers.Web3Provider(web3.currentProvider);
 ethereum.enable();
 var signatario = provedor.getSigner();
